@@ -13,3 +13,10 @@ Whilst a real Gigatron produces a VGA display and audio, the intention of this s
 
 
 ![image](https://user-images.githubusercontent.com/758847/128010510-6c15c98a-aad1-4ae5-9c60-47e3167304bc.png)
+
+This is a view of the whole Gigatron design - which I have broken down into 6 manageable sections: X & Y RAM addressing registers and RAM, Front Panel and Switches, Program Counter and ROM, Control Unit, ALU-High and ALU Low.
+
+The simlator was running when I grabbed this screenshot - so high and low signals are light and dark green respectively and the data on the hexadecimal displays are updated on each clock cycle.
+
+![image](https://user-images.githubusercontent.com/758847/128020739-3ff8110a-be9c-4248-bf4f-d4743477d6fb.png)
+
