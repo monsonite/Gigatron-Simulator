@@ -31,6 +31,18 @@ The simlator was running when I grabbed this screenshot - so high and low signal
 
 Here's a new front panel design concept that uses a hex-keypad to program data into the RAM. 
 
+A diode matrix is used to convert the keypress into a 4-bit binary code.
+
+The last 4 digits from the hex keypad are clocked into the ket-switch register. From here they can either be used to load the program counter or deposited into RAM at the current address.
+
+A further diode matrix is used to decode some simple control functions.
+
+An up-down counter is used for the program counter. This is only because I was considering using it as a stack pointer, which needs to be both incremented and decremented. Without this requirement the program counter can just be a binary counter made from 4 off 74xx163 devices.
+
+If you examine or deposit to memory, the program counter is automatically incremented.
+
+The whole front panel logic consists of just 8 devices.  If you had TL311 LED displays you could quite readily construct this. 
+
 ![image](https://user-images.githubusercontent.com/758847/168101230-76591219-3efa-4d96-af1e-98acab56144b.png)
 
 
