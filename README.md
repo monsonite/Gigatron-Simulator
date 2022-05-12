@@ -9,6 +9,8 @@ This simulation allows you to see the various sections of the design work togeth
 
 Below is a screenshot of the "Front Panel".  For ease of monitoring the process, multiple 7-segment displays allow you to view ROM Address, Instruction, Data, RAM Address, Output Register, Switch Inputs etc.
 
+A new front panel that allows data entry to the RAM from a hex-heypad is shown further down this ReadMe
+
 The design deviates a little from the real Gigatron - registers are 4-bit 74xx173 as they have a better pin arrangement than the 8-bit 74xx377. 
 
 
