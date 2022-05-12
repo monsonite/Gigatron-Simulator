@@ -27,3 +27,8 @@ The simlator was running when I grabbed this screenshot - so high and low signal
 
 ![image](https://user-images.githubusercontent.com/758847/128181804-6539af21-bd16-4298-9402-ba67278c9a3d.png)
 
+Here's a new front panel design concept that uses a hex-keypad to program data into the RAM. 
+
+![image](https://user-images.githubusercontent.com/758847/168101230-76591219-3efa-4d96-af1e-98acab56144b.png)
+
+
