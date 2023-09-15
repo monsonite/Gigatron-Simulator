@@ -19,6 +19,12 @@ Similarly 74xx240, 74xx244 and 74xx273 have been swapped out for more "bus" orie
 
 Whilst a real Gigatron produces a VGA display and audio, the intention of this simulator is to explore the architecture and instruction set of the machine.  It also highlights the effect of the simple pipeline, where one instruction is being executed whilst the next is being fetched.
 
+## September 2023 Update.
+
+I have removed the parallel ALU, consisting of 8 x 74HC153 multiplexers and 2 x 74HC283 4-bit adders, and replaced it with a bit serial ALU. 
+
+This lowers the chip count and also the instruction rate to approximately 1 million instructions per second from a 10MHz clock.
+
 
 ![image](https://user-images.githubusercontent.com/758847/128181975-99832af3-ba6c-4ea7-afcb-7582785bb38e.png)
 
