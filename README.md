@@ -49,6 +49,8 @@ If you examine or deposit to memory, the program counter is automatically increm
 
 The whole front panel logic consists of just 8 devices.  If you had TIL311 LED displays you could quite readily construct this. 
 
-![image](https://user-images.githubusercontent.com/758847/168101230-76591219-3efa-4d96-af1e-98acab56144b.png)
+![image](https://user-images.githubusercontent.com/758847/168101230-76591219-3efa-4d96-af1e-98acab56144b.png) 
+
+
 
 
